@@ -1,71 +1,59 @@
-````markdown
 # 🌌 Starbound Odyssey
 
-An expansive **high-octane multiplayer space arena shooter** built with **Vite, TypeScript, HTML5 Canvas, and JavaScript**. Explore a massive galaxy, unlock powerful ships, harvest valuable resources, avoid deadly black holes, and battle rival pilots in real-time.
+An expansive **high-octane multiplayer space arena shooter** built with **Vite, TypeScript, HTML5 Canvas, and JavaScript**. Command an ever-growing fleet of ships, explore a massive galaxy, harvest valuable cosmic resources, dodge black holes, and battle other pilots in real-time.
 
 ---
 
-# 🎮 Play Online
-
-### 🚀 Play instantly in your browser
-
-**🌐 https://starboundodyssey.lovable.app**
-
-No installation required.
-
----
-
-# ✨ Features
+## ✨ Features
 
 ### 🌌 Massive Galaxy
 
-- 🌍 Huge open-world galaxy
+- 🌍 Huge galaxy map
 - 🪐 Hundreds of planets
-- ⭐ Stars scattered across space
+- ⭐ Multiple stars
 - 🕳️ Dangerous black holes
 - ☄️ Thousands of asteroids
 
 ### 🚀 Ships & Upgrades
 
-- 🚀 1,000 Unlockable Ships
-- 🛡️ 20 Shield Types
-- 💥 20 Rocket Types
-- 📈 Progressive Upgrade System
-- 🛒 Large In-Game Shop
+- 1,000 Unlockable Planes
+- Sequential Unlock System
+- 20 Rocket Types
+- 20 Shield Types
+- Upgrade Shop
 
 ### ⚔️ Multiplayer
 
-- 🌐 LAN Multiplayer
-- 👥 Multiple Players
-- 📱 Mobile Friendly
-- 🎯 Random Spawn System
-- 💾 Persistent Landing Hub
+- Local Multiplayer
+- LAN Multiplayer
+- Mobile Friendly
+- Random Respawns
+- Persistent Landing Hub
 
-### 🗺️ Navigation
+### 🗺️ Galaxy Navigation
 
 - Interactive Galaxy Map
-- Live Minimap
-- Player Position Tracking
+- Minimap
+- Live Player Position
 
 ### 📱 Cross Platform
 
-- 💻 Windows
-- 🖥️ Linux
-- 🍎 macOS
-- 📱 Android
-- 📲 Tablets
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
 ---
 
 # 🛠️ Technologies Used
 
-- **Vite**
-- **TypeScript**
-- **HTML5 Canvas API**
-- **JavaScript (ES6+)**
-- **CSS3**
-- **Node.js**
-- **Bun**
+- Vite
+- TypeScript
+- HTML5 Canvas API
+- JavaScript (ES6+)
+- CSS3
+- Bun
+- Node.js
 
 ---
 
@@ -79,45 +67,36 @@ Starbound-Odyssey/
 ├── supabase/
 ├── .env
 ├── .gitignore
-├── .prettierignore
-├── .prettierrc
 ├── bun.lock
 ├── bunfig.toml
-├── components.json
-├── eslint.config.js
 ├── package.json
 ├── run.bat
 ├── tsconfig.json
 ├── vite.config.ts
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 ---
 
 # ⚙️ Installation
 
-## 1️⃣ Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/rsamwilson2323-cloud/starbound-odyssey.git
 ```
 
-## 2️⃣ Open the Project
-
 ```bash
 cd starbound-odyssey
 ```
 
-## 3️⃣ Install Dependencies
-
-Using Bun
+Install dependencies
 
 ```bash
 bun install
 ```
 
-Using npm
+or
 
 ```bash
 npm install
@@ -135,24 +114,22 @@ Simply double-click
 run.bat
 ```
 
-The launcher automatically:
+The launcher automatically
 
-- ✅ Installs missing dependencies
-- ✅ Starts the development server
-- ✅ Displays Localhost URL
-- ✅ Displays LAN IP Address
+- Installs dependencies (if needed)
+- Starts the development server
+- Displays your Localhost URL
+- Displays your LAN IP
 
 ---
 
 ## Manual
 
-Using Bun
-
 ```bash
 bun run dev
 ```
 
-Using npm
+or
 
 ```bash
 npm run dev
@@ -160,21 +137,15 @@ npm run dev
 
 ---
 
-# 🌐 Access the Game
+# 🌐 Open in Browser
 
-## Play Online
-
-```
-https://starboundodyssey.lovable.app
-```
-
-## Localhost
+Local
 
 ```text
 http://localhost:8080
 ```
 
-## LAN
+LAN
 
 ```text
 http://YOUR-IP:8080
@@ -190,51 +161,35 @@ http://192.168.1.10:8080
 
 # 🎮 Controls
 
-## 🖥️ Desktop
-
 | Key | Action |
 |------|--------|
-| 🖱️ Mouse | Aim |
+| 🖱 Mouse | Aim |
 | W A S D | Move |
-| Arrow Keys | Move |
 | M | Galaxy Map |
 | ESC | Pause Menu |
 
-## 📱 Mobile
+### Mobile
 
-- 🎮 Virtual Joystick
-- ⚡ Boost
-- 🛡️ Shield
-- 🚀 Rocket
-- 🔥 Fire
-- ☰ Menu
+- Virtual Joystick
+- Boost
+- Shield
+- Rocket
+- Fire
+- Menu
 
 ---
 
 # 🌟 Highlights
 
-- 🌍 Massive Open Galaxy
 - 🚀 1,000 Unlockable Ships
-- ☄️ Thousands of Asteroids
-- 🪐 Hundreds of Planets
+- 🌍 Massive Open Galaxy
+- ☄️ Asteroids
+- 🪐 Planets
 - 🕳️ Black Holes
 - ⚔️ Multiplayer Battles
 - 📱 Mobile Controls
-- 🎨 Canvas Graphics
 - ⚡ Smooth Performance
-- 🌐 LAN Multiplayer
-- 💾 Persistent Progress
-
----
-
-# 💡 Gameplay Tips
-
-- 💰 Collect valuable resources.
-- 🚀 Unlock stronger ships.
-- 🛡️ Upgrade shields and rockets.
-- 🌌 Avoid black holes.
-- ⚔️ Eliminate rival pilots.
-- 👑 Become the strongest commander.
+- 🎨 Canvas Rendering
 
 ---
 
@@ -248,21 +203,10 @@ This project is licensed under the **MIT License**.
 
 **Sam Wilson**
 
-🐙 GitHub  
-https://github.com/rsamwilson2323-cloud
+🐙 GitHub: https://github.com/rsamwilson2323-cloud
 
-💼 LinkedIn  
-https://www.linkedin.com/in/sam-wilson-14b554385
+💼 LinkedIn: https://www.linkedin.com/in/sam-wilson-14b554385
 
 ---
 
-<div align="center">
-
-## ⭐ If you enjoyed this project, don't forget to Star ⭐ the repository!
-
-### 🌌 Starbound Odyssey — Explore. Upgrade. Survive. Conquer.
-
-Made with ❤️ by **Sam Wilson**
-
-</div>
-````
+⭐ **If you enjoyed this project, don't forget to Star ⭐ the repository!**
